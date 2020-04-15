@@ -17,7 +17,11 @@ header {
 }
 
 h1 {
-	color: #000000
+	color: #222222;
+}
+
+h2 {
+	font-style: italic;
 }
 
 a {
@@ -27,7 +31,6 @@ a {
 
 nav a {
 	color: #cccccc;
-	font-style: italic;
 	margin-right: 20px;
 }
 
@@ -51,5 +54,9 @@ h4 {
 	color: #E86F7B;
 	font-size: 20px;
 	font-style: italic;
+}
+
+ul {
+	padding: 30px;
 }
 
