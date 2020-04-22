@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@700&family=Roboto+Slab:wght@300;400;800&display=swap');
+
+* {
+	padding: 0;
+	margin: 0;
+}
+
+body {
+	font-family: Roboto, serif;
+	font-weight: normal;
+	font-size: 1em;
+	color: #222222;
+	text-align: center;
+
+}
+
+p {
+	font-family: Roboto, serif;
+	font-weight: normal;
+	font-size: 1em;
+	line-height: 1.5em;
+}
+
+h1{
+	font-family: 'Open Sans', sans-serif;
+	font-weight: bold;
+	font-size:	3em;
+	text-align:	center;
+	color:	#E86F7B;
+	margin:	2em auto;
+}
+
+h2 {
+	font-family: 'Open Sans', sans-serif;
+	font-size: 2em;
+	font-weight: bold; 
+	text-align: center;
+
+}
+
+h3 {
+	font-family: 'Open Sans', sans-serif;
+	font-weight: normal; 
+	color: #E86F7B;
+	font-size: 1.5em;
+	text-align: center;
+}
+
+hr {
+	border: none;
+	height: 3px;
+	background-color: #E86F7B;
+	width: 4em;
+	margin: 1em auto;
+}
+
+a {
+	color: #E86F7B;
+	text-decoration: none;
+}
+
+nav a {
+	font-family: Roboto, serif;
+	font-weight: bold;
+	text-transform: uppercase;
+	font-size: .75em;
+	padding: 0 32px;
+	color: #222222;
+	letter-spacing: 2px;
+	text-align: center;
+
+}
+
+img {
+	width: 100%;
+}
+
+main {
+	padding: 20px;
+}
+
+footer {
+	background-color: #cccccc;
+	font-family: Roboto, serif;
+	color: #222222;
+	padding: 20px;
+	text-align: center;
+}
+
+ul {
+	padding: 30px;
+}
+
+.skills{
+	width: 30em;
+	margin: 2em auto;
+
+}
+
+#lander{
+	background:url(../images/hero_image_hp.jpg) no-repeat center center scroll;
+	background-size: cover;
+	height:750px;
+	padding:20px 0;
+}
