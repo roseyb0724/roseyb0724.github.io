@@ -6,19 +6,13 @@
 	margin: 0;
 }
 
-header {
-	background-color: #ffed74;
-	color: 000;
-	border: 1px black solid;
-	padding: 20px;
-}
-
 body {
 	font-family: 'Roboto Slab', serif;
 	font-weight: 400;
 	font-size: 1em;
 	color: #222222;
 	text-align: center;
+
 }
 
 p {
@@ -29,27 +23,27 @@ p {
 	text-align: left;
 }
 
-/*h1{
+h1{
 	font-family: 'Open Sans', sans-serif;
 	font-weight: 400;
 	font-size:	3em;
 	text-align:	center;
 	color:	#E86F7B;
 	margin:	2em auto;
-}*/
+}
 
 h2 {
 	font-family: 'Open Sans', sans-serif;
-	color: #000;
 	font-size: 2em;
 	font-weight: 400; 
 	text-align: center;
+
 }
 
 h3 {
 	font-family: 'Open Sans', sans-serif;
 	font-weight: 300; 
-	color: #000;
+	color: #E86F7B;
 	font-size: 1.5em;
 	text-align: center;
 }
@@ -57,21 +51,19 @@ h3 {
 hr {
 	border: none;
 	height: 3px;
-	background-color: #000;
+	background-color: #E86F7B;
 	width: 4em;
 	margin: 1em auto;
 }
 
 a {
-	color: #000;
+	color: #E86F7B;
 	text-decoration: none;
 }
 
 nav {
 	text-align: center;
-	background-color: #e8c66a;
-	border: 1px black solid;
-	padding: 20px;
+/*	float: right;*/
 }
 
 nav a {
@@ -94,50 +86,16 @@ main {
 }
 
 footer {
-	background-color: #ff957e;
+	background-color: #cccccc;
 	font-family: 'Roboto Slab', serif;
 	font-weight: 400;
 	color: #222222;
 	padding: 20px;
-}
-
-footer p {
 	text-align: center;
 }
 
 ul {
 	padding: 30px;
-	text-align: left;
-}
-
-#two_column {
-    background-color: #FFB7CF;
-    border: 1px black solid;
-    padding: 20px;
-}
-
-#left {
-	background-color: #E582A2;
-    border: 1px black solid;
-    padding: 20px;
-    float: left;
-    width: 62%;
-    text-align: center;
-}
-
-#right {
-	background-color: #E55B88;
-    border: 1px black solid;
-    padding: 20px;
-    float: right;   
-    width: 30%;
-    text-align: center;
-}
-
-#right img{
-	max-width: 180px;
-	display: block;
-	margin:auto;
 }
 
 .clearfix:after{
@@ -150,16 +108,16 @@ ul {
 }
 
 .wrapper{
-	background-color: #FFB7CF;
+/*	background-color: purple;*/
 	width: 90%;
 	margin: auto;
 }
 
 .skills{
-	width:31%;
+	width:30%;
 	margin:1%;
 	float:left;
-	background: #E582A2;
+/*	background: orange;*/
 }
 
 .skills img{
@@ -168,9 +126,9 @@ ul {
 	margin:auto;
 }
 
-/*#lander{
+#lander{
 	background:url(../images/hero_image_hp.jpg) no-repeat center center scroll;
 	background-size: cover;
 	height:750px;
 	padding:20px 0;
-}*/
+}
