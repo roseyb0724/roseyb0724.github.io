@@ -1,0 +1,212 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@700&family=Roboto+Slab:wght@300;400;800&display=swap');
+
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+body {
+	font-family: 'Roboto Slab', serif;
+	font-weight: 400;
+	font-size: 1em;
+	color: #222222;
+}
+
+header {
+	padding:0 200px;
+}
+
+nav {
+	text-align: center;
+/*	float: right;*/
+}
+
+nav a:link{
+	font-family: 'Open Sans', sans-serif;
+	color:#000;
+	margin:0 32px;
+	padding-bottom:5px;
+	font-size: .8em;
+	text-align: center;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+}
+
+nav a:visited{
+	color: #000;
+}
+
+nav a:hover{
+	border-bottom: 1px solid #000;
+}
+
+nav a:active{
+	color:#000;
+}
+
+section {
+	padding: 50px
+}
+
+footer {
+	background-color: #cccccc;
+	font-family: 'Roboto Slab', serif;
+	font-weight: 400;
+	color: #222222;
+	padding: 20px;
+	text-align: center;
+}
+
+footer p {
+	text-align: center
+}
+
+h1{
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 400;
+	font-size:	3em;
+	text-align:	center;
+	color:	#E86F7B;
+	margin:	2em auto;
+}
+
+h2 {
+	font-family: 'Open Sans', sans-serif;
+	font-size: 2em;
+	font-weight: 400; 
+	text-align: center;
+	margin: 1em auto;
+}
+
+h3 {
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 300; 
+	font-size: 1.5em;
+	text-align: center;
+	margin:	1em auto;
+
+}
+
+p {
+	font-family: 'Roboto Slab', serif;
+	font-size:1em;
+	line-height: 1.6em;
+}
+
+ul {
+	list-style:none;
+	margin:.5em 0 0;
+}
+
+li{
+	font-family: 'Roboto Slab', serif;
+	text-align: center;
+	color: #000;
+}
+
+a {
+	text-decoration:none;
+	color: #E86F7B;
+	margin: 1em auto;
+}
+
+img {
+	width: 100%;
+}
+
+hr {
+	border: none;
+	height: 3px;
+	background-color: #E86F7B;
+	width: 4em;
+	margin: 1em auto;
+}
+
+.clearfix:after{
+	visibility: hidden;
+	height: 0;
+	font-size: 0;
+	content:" ";
+	display: block;
+	clear:both;
+}
+
+.wrapper{
+/*	background-color: purple;*/
+	width: 90%;
+	margin: auto;
+}
+
+.skills{
+	width:30%;
+	margin:1%;
+	float:left;
+/*	background: orange;*/
+}
+
+.skills img{
+	max-width: 250px;
+	display: block;
+	margin:auto;
+	border-radius: 50%;
+}
+
+#cta {
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 300; 
+	font-size: 1.5em;
+	color: fff;
+	background-color: #E86F7B;
+
+	width: 50px;
+	display: block;
+	margin:auto;
+}
+
+#two_column {
+    padding: 20px;
+    background-color: #cccccc
+}
+
+#left {
+    padding: 20px;
+    float: left;
+    width: 62%;
+    text-align: left;
+}
+
+#right {
+    padding: 20px;
+    float: right;   
+    width: 30%;
+    text-align: left;
+}
+
+#right img{
+	max-width: 180px;
+	display: block;
+	margin:auto;
+}
+
+.testimonials {
+	width: 30%;
+    padding: 20px;
+    float:left;   
+    text-align: center;
+}
+
+.testimonials img{
+	max-width: 180px;
+	display: block;
+	margin:auto;
+	border-radius: 50%;
+}
+
+#lander{
+	background:url(../images/hero_image_hp.jpg) no-repeat center center scroll;
+	background-size: cover;
+	height:750px;
+	padding:20px 0;
+}

@@ -12,7 +12,6 @@ body {
 	font-size: 1em;
 	color: #222222;
 	text-align: center;
-
 }
 
 p {
@@ -37,7 +36,7 @@ h2 {
 	font-size: 2em;
 	font-weight: 400; 
 	text-align: center;
-
+	margin: 1em auto;
 }
 
 h3 {
@@ -67,10 +66,10 @@ nav {
 }
 
 nav a {
-	font-family: 'Roboto Slab', serif;
+	font-family: 'Open Sans', sans-serif;
 	font-weight: 400;
 	text-transform: uppercase;
-	font-size: .75em;
+	font-size: 1em;
 	padding: 0 32px;
 	color: #222222;
 	letter-spacing: 2px;
@@ -94,8 +93,40 @@ footer {
 	text-align: center;
 }
 
+footer p {
+	text-align: center
+}
+
 ul {
 	padding: 30px;
+	text-align: center;
+}
+
+.about {
+    padding: 20px;
+    float: left;
+    background-color: #cccccc;
+
+}
+
+/*#left {
+    padding: 20px;
+    float: left;
+    width: 62%;
+    text-align: center;
+}*/
+
+.testimonials {
+    padding: 20px;
+    float:left;   
+    text-align: center;
+}
+
+.testimonials img{
+	max-width: 180px;
+	display: block;
+	margin:auto;
+	border-radius: 50%;
 }
 
 .clearfix:after{
@@ -124,6 +155,7 @@ ul {
 	max-width: 250px;
 	display: block;
 	margin:auto;
+	border-radius: 50%;
 }
 
 #lander{
