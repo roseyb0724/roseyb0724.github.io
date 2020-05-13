@@ -14,21 +14,21 @@ body {
 	color: #222222;
 }
 
-header {
+/*header {
 	padding:0 200px;
-}
+}*/
 
 nav {
 	text-align: center;
 /*	float: right;*/
 }
 
-nav a:link{
+nav a {
 	font-family: 'Open Sans', sans-serif;
 	color:#000;
 	margin:0 32px;
 	padding-bottom:5px;
-	font-size: .8em;
+	font-size: 1em;
 	text-align: center;
 	text-transform: uppercase;
 	letter-spacing: 2px;
@@ -47,6 +47,7 @@ nav a:active{
 }
 
 section {
+	/*margin: 200px;*/
 	padding: 50px
 }
 
@@ -69,7 +70,8 @@ h1{
 	font-size:	3em;
 	text-align:	center;
 	color:	#E86F7B;
-	margin:	2em auto;
+	padding: 20px;
+	/*margin:	2em auto;*/
 }
 
 h2 {
@@ -77,7 +79,7 @@ h2 {
 	font-size: 2em;
 	font-weight: 400; 
 	text-align: center;
-	margin: 1em auto;
+	/*margin: 1em auto;*/
 }
 
 h3 {
@@ -85,7 +87,7 @@ h3 {
 	font-weight: 300; 
 	font-size: 1.5em;
 	text-align: center;
-	margin:	1em auto;
+	/*margin:	1em auto;*/
 
 }
 
@@ -107,9 +109,11 @@ li{
 }
 
 a {
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 400;
 	text-decoration:none;
 	color: #E86F7B;
-	margin: 1em auto;
+	/*margin: 1em auto;*/
 }
 
 img {
@@ -134,16 +138,15 @@ hr {
 }
 
 .wrapper{
-/*	background-color: purple;*/
-	width: 90%;
+	/*background-color: purple;*/
+	width: 1443px;
 	margin: auto;
 }
 
 .skills{
-	width:30%;
-	margin:1%;
+	width:400px;
+	margin:20px;
 	float:left;
-/*	background: orange;*/
 }
 
 .skills img{
@@ -154,50 +157,38 @@ hr {
 }
 
 #cta {
-	font-family: 'Open Sans', sans-serif;
-	font-weight: 300; 
-	font-size: 1.5em;
-	color: fff;
-	background-color: #E86F7B;
-	width: 50px;
+	background-color: #fff;
+	border: 2px black solid;
+	border-color: #E86F7B;
+	display:inline-block;
+	padding: 10px;
+}
+
+.about {
+    /*width: 1680px;*/
+	margin: auto;
+    background-color: #cccccc;
+}
+
+.info {
+	width:400px;
+	margin: 20px;
+	/*padding: 0 60px;*/
+	float: left;
 	display: block;
-	margin:auto;
+	/*margin: auto;*/
 }
 
-#two_column {
-    padding: 20px;
-    background-color: #cccccc
-}
-
-#left {
-    padding: 20px;
-    float: left;
-    width: 62%;
-    text-align: left;
-}
-
-#right {
-    padding: 20px;
-    float: right;   
-    width: 30%;
-    text-align: left;
-}
-
-#right img{
-	max-width: 180px;
+/*.testimonials {
+	width:400px;
+	margin:20px;
 	display: block;
-	margin:auto;
-}
+	float:left;
+	text-align:center;
+}*/
 
-.testimonials {
-	width: 30%;
-    padding: 20px;
-    float:left;   
-    text-align: center;
-}
-
-.testimonials img{
-	max-width: 180px;
+.info img{
+	max-width: 250px;
 	display: block;
 	margin:auto;
 	border-radius: 50%;
@@ -206,6 +197,7 @@ hr {
 #lander{
 	background:url(../images/hero_image_hp.jpg) no-repeat center center scroll;
 	background-size: cover;
+	text-align: center;
 	height:750px;
 	padding:20px 0;
 }
