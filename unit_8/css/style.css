@@ -23,8 +23,9 @@ nav a {
 	font-family: 'Open Sans', sans-serif;
 	color:#000;
 	margin:0 32px;
+	padding: 10px;
 	padding-bottom:5px;
-	font-size: 1em;
+	font-size: .75em;
 	text-align: center;
 	text-transform: uppercase;
 	letter-spacing: 2px;
@@ -42,8 +43,12 @@ nav a:active{
 	color:#000;
 }
 
+header{
+	padding:0 200px;
+}
+
 section {
-	padding: 50px 0;
+	padding: 6em 0;
 }
 
 footer {
@@ -62,10 +67,10 @@ footer p {
 h1{
 	font-family: 'Open Sans', sans-serif;
 	font-weight: 400;
-	font-size:	3em;
+	font-size: 2.5em;
 	text-align:	center;
 	color:	#E86F7B;
-	padding: 20px;
+	padding: 50px 0 0;
 	/*margin:	2em auto;*/
 }
 
@@ -82,7 +87,15 @@ h3 {
 	font-weight: 300; 
 	font-size: 1.5em;
 	text-align: center;
+	padding-top: 20px;
 	/*margin:	1em auto;*/
+}
+
+h4 {
+	font-family: 'Roboto Slab', serif;
+	font-weight: 200;
+	text-align: center;
+	font-style: italic;
 }
 
 p {
@@ -122,6 +135,20 @@ hr {
 	margin: 1em auto;
 }
 
+
+label {
+	font-family: 'Open Sans', sans-serif;
+	color:#000;
+	margin:0 32px;
+	padding: 10px;
+	padding-bottom:5px;
+	font-size: .75em;
+	text-align: center;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+	display: none;
+}
+
 .clearfix:after{
 	visibility: hidden;
 	height: 0;
@@ -138,9 +165,9 @@ hr {
 }
 
 .skills{
-	width:30%;
-	padding:1%;
-	margin:0 1%;
+	width:33.3%;
+	padding:3%;
+	/*margin:0 1%;*/
 	float:left;
 }
 
@@ -153,10 +180,11 @@ hr {
 
 #cta {
 	background-color: #fff;
-	border: 2px black solid;
+	border: .25em black solid;
 	border-color: #E86F7B;
 	display:inline-block;
 	padding: 10px;
+	margin-top: 30px;
 }
 
 .about {
@@ -165,30 +193,33 @@ hr {
     background-color: #cccccc;
 }
 
-.testimonials {
-	margin: auto;
-	text-align:center;
-}
-
 .list {
+	vertical-align: top;
 	text-align: left;
 	width: 30%;
 	display: inline-block;
 }
 
+.testimonials {
+	margin:auto;
+	text-align:center;
+	width: 80%;
+}
+
 .info {
+	vertical-align: top;
 	text-align: left;
 	width: 45%;
 	display: inline-block;
-	padding: 10px;
+	/*padding: 10px;*/
 }
-
 
 .info img{
 	max-width: 250px;
 	display: block;
 	margin:auto;
 	border-radius: 50%;
+	/*padding-right: 20px;*/
 }
 
 #lander{
@@ -197,4 +228,94 @@ hr {
 	text-align: center;
 	height:750px;
 	padding:20px 0;
+}
+
+#toggle{
+	display: none;
+}
+
+@media screen and (max-width:1060px){
+
+	body {
+		font-size: 15px;
+	}
+
+	.skills{
+		width:50%;
+	}
+
+	.info {
+		padding-top: 40px;
+		width: 80%;
+	}
+
+	.list {
+		padding-top: 40px;
+	}
+
+	.testimonials {
+		width: 90%;
+	}
+}
+
+@media screen and (max-width:760px){
+
+	.skills{
+		width: 100%;
+		float: none;
+		height: auto;
+	}
+
+/*	.info {
+		width: 60%;
+	}*/
+
+	.testimonials {
+		width: 80%;
+	}
+
+}
+
+@media screen and (max-width:586px){
+	nav {
+		display: none;
+	}
+
+	nav a {
+		display: block;
+		padding: 15px;
+		margin: 5px;
+	}
+
+	header {
+		padding:10px 50px;
+	}	
+
+	h1 {
+		font-size: 3em;
+		margin: 40px 0 0;
+		padding: 20px 0 0;
+	}
+
+	label {
+		display: block;
+	}
+
+	.info {
+		width: 80%;
+		padding-top: 20px;
+	}
+
+	.list {
+		width: 80%;
+		margin: auto;
+	}
+
+	.testimonials {
+		width: 80%;
+	}
+
+	#toggle:checked + nav {
+		display: block;
+	}
 }
