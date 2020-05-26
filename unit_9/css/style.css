@@ -196,7 +196,7 @@ label {
 .testimonials {
 	margin:auto;
 	text-align:center;
-	width: 80%;
+	width: 100%;
 }
 
 .info {
@@ -227,12 +227,17 @@ label {
 
 @media screen and (max-width:1060px){
 
-/*	body {
-		font-size: 15px;
-	}*/
+	.wrapper{
+		text-align: center;
+	}
 
 	.skills{
-		width:50%;
+		width: 45%;
+		display: inline-block;
+		float: none;
+		padding: 30px;
+		text-align: left;
+		/*height: auto;*/
 	}
 
 	.info {
@@ -244,57 +249,45 @@ label {
 		padding-top: 40px;
 	}
 
-	.testimonials {
+/*	.testimonials {
 		width: 90%;
-	}
+	}*/
 }
-
-/*@media screen and (max-width:915px){
-	h1{
-		font-size: 2.25em;
-		margin: 20px 0 0;
-		padding: 10px 0 0;
-	}
-}*/
 
 @media screen and (max-width:920px){
 
 	header {
 		padding:10px 50px;
 	}
-
 }
 
 
 @media screen and (max-width:760px){
-
-
 
 	header {
 		padding:10px 50px;
 	}
 
 	.skills{
-		width: 100%;
-		float: none;
-		height: auto;
+		width: 80%;
+		/*padding: 40px;*/
 	}
-
+/*
 	.testimonials {
 		width: 80%;
-	}
+	}*/
 
 }
 
 @media screen and (max-width:620px){
 
 	h1{
-		font-size: 2em;
+		font-size: 2.25em;
 	}
-
-		body {
+/*
+	body {
 		font-size: 16px;
-	}
+	}*/
 
 }
 
@@ -308,6 +301,10 @@ label {
 		display: block;
 		padding: 15px;
 		margin: 5px;
+	}
+
+	nav a:hover{
+		border-bottom: 0px solid #000;
 	}
 
 	header {
@@ -334,11 +331,15 @@ label {
 		margin: auto;
 	}
 
-	.testimonials {
-		width: 80%;
-	}
-
 	#toggle:checked + nav {
 		display: block;
 	}
+
+/*	#lander{
+		background:url(../images/hero_image_hp.jpg) no-repeat center center scroll;
+		background-size: cover;
+		text-align: center;
+		height:750px;
+		padding:20px 0;
+	}*/
 }
