@@ -1,0 +1,344 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@700&family=Roboto+Slab:wght@300;400;800&display=swap');
+
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+body {
+	font-family: 'Roboto Slab', serif;
+	font-weight: 400;
+	font-size: 18px;
+	color: #222222;
+}
+
+nav {
+	text-align: center;
+}
+
+nav a {
+	font-family: 'Open Sans', sans-serif;
+	color:#000;
+	margin:0 32px;
+	padding: 10px;
+	padding-bottom:5px;
+	font-size: .75em;
+	text-align: center;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+}
+
+nav a:visited{
+	color: #000;
+}
+
+nav a:hover{
+	border-bottom: 1px solid #000;
+}
+
+nav a:active{
+	color:#000;
+}
+
+header{
+	padding:0 200px;
+}
+
+section {
+	padding: 6em 0;
+}
+
+footer {
+	background-color: #cccccc;
+	font-family: 'Roboto Slab', serif;
+	font-weight: 400;
+	color: #222222;
+	padding: 20px;
+	text-align: center;
+}
+
+footer p {
+	text-align: center
+}
+
+h1{
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 400;
+	font-size: 2.5em;
+	text-align:	center;
+	color:	#E86F7B;
+	padding: 50px 0 0;
+}
+
+h2 {
+	font-family: 'Open Sans', sans-serif;
+	font-size: 2em;
+	font-weight: 400; 
+	text-align: center;
+}
+
+h3 {
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 300; 
+	font-size: 1.5em;
+	text-align: center;
+	padding-top: 20px;
+}
+
+h4 {
+	font-family: 'Roboto Slab', serif;
+	font-weight: 200;
+	text-align: center;
+	font-style: italic;
+}
+
+p {
+	font-family: 'Roboto Slab', serif;
+	font-size: 1em;
+	line-height: 1.6em;
+}
+
+ul {
+	list-style:none;
+	margin:.5em 0 0;
+}
+
+li{
+	font-family: 'Roboto Slab', serif;
+	text-align: center;
+	color: #000;
+}
+
+a {
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 400;
+	text-decoration:none;
+	color: #E86F7B;
+}
+
+img {
+	width: 100%;
+}
+
+hr {
+	border: none;
+	height: 3px;
+	background-color: #E86F7B;
+	width: 4em;
+	margin: 1em auto;
+}
+
+
+label {
+	font-family: 'Open Sans', sans-serif;
+	color:#000;
+	margin:0 32px;
+	padding: 10px;
+	padding-bottom:5px;
+	font-size: .75em;
+	text-align: center;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+	display: none;
+}
+
+.clearfix:after{
+	visibility: hidden;
+	height: 0;
+	font-size: 0;
+	content:" ";
+	display: block;
+	clear:both;
+}
+
+.wrapper{
+	width: 90%;
+	margin: 0 auto;
+}
+
+.skills{
+	width:33.3%;
+	padding:3%;
+	float:left;
+}
+
+.skills img{
+	max-width: 250px;
+	display: block;
+	margin:auto;
+	border-radius: 50%;
+}
+
+#cta {
+	background-color: #fff;
+	border: .25em black solid;
+	border-color: #E86F7B;
+	display:inline-block;
+	padding: 10px;
+	margin-top: 30px;
+}
+
+.about {
+	text-align: center;
+	margin: auto;
+    background-color: #cccccc;
+}
+
+.list {
+	vertical-align: top;
+	text-align: left;
+	width: 30%;
+	display: inline-block;
+}
+
+.testimonials {
+	margin:auto;
+	text-align:center;
+	width: 80%;
+}
+
+.info {
+	vertical-align: top;
+	text-align: left;
+	width: 45%;
+	display: inline-block;
+}
+
+.info img{
+	max-width: 250px;
+	display: block;
+	margin:auto;
+	border-radius: 50%;
+}
+
+#lander{
+	background:url(../images/hero_image_hp.jpg) no-repeat center center scroll;
+	background-size: cover;
+	text-align: center;
+	height:750px;
+	padding:20px 0;
+}
+
+#toggle{
+	display: none;
+}
+
+@media screen and (max-width:1060px){
+
+/*	body {
+		font-size: 15px;
+	}*/
+
+	.skills{
+		width:50%;
+	}
+
+	.info {
+		padding-top: 40px;
+		width: 80%;
+	}
+
+	.list {
+		padding-top: 40px;
+	}
+
+	.testimonials {
+		width: 90%;
+	}
+}
+
+/*@media screen and (max-width:915px){
+	h1{
+		font-size: 2.25em;
+		margin: 20px 0 0;
+		padding: 10px 0 0;
+	}
+}*/
+
+@media screen and (max-width:920px){
+
+	header {
+		padding:10px 50px;
+	}
+
+}
+
+
+@media screen and (max-width:760px){
+
+
+
+	header {
+		padding:10px 50px;
+	}
+
+	.skills{
+		width: 100%;
+		float: none;
+		height: auto;
+	}
+
+	.testimonials {
+		width: 80%;
+	}
+
+}
+
+@media screen and (max-width:620px){
+
+	h1{
+		font-size: 2em;
+	}
+
+	body {
+		font-size: 16px;
+	}
+
+}
+
+
+@media screen and (min-width:320px) and (max-width:583px){
+	nav {
+		display: none;
+	}
+
+	nav a {
+		display: block;
+		padding: 15px;
+		margin: 5px;
+	}
+
+	header {
+		padding:10px 50px;
+	}	
+
+	h1 {
+		font-size: 2.25em;
+		margin: 40px 0 0;
+		padding: 20px 0 0;
+	}
+
+	label {
+		display: block;
+	}
+
+	.info {
+		width: 80%;
+		padding-top: 20px;
+	}
+
+	.list {
+		width: 80%;
+		margin: auto;
+	}
+
+	.testimonials {
+		width: 80%;
+	}
+
+	#toggle:checked + nav {
+		display: block;
+	}
+}
