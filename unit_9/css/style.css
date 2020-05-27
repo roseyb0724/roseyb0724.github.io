@@ -312,8 +312,8 @@ label {
 	}	
 
 	h1 {
-		font-size: 2.25em;
-		margin: 40px 0 0;
+		font-size: 2.5em;
+		margin: 30px 0 0;
 		padding: 20px 0 0;
 	}
 
@@ -335,11 +335,7 @@ label {
 		display: block;
 	}
 
-/*	#lander{
-		background:url(../images/hero_image_hp.jpg) no-repeat center center scroll;
-		background-size: cover;
-		text-align: center;
-		height:750px;
-		padding:20px 0;
-	}*/
+	#lander{
+		background:url(../images/hero_imagemobile_hp.jpg) no-repeat center center scroll;
+	}
 }
